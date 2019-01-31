@@ -40,28 +40,19 @@
 
   <dependencies>
 
-    <dependency>
-
-        <groupId>org.seleniumhq.selenium</groupId>
-
-        <artifactId>selenium-java</artifactId>
-
-        <version>3.141.59</version>
-
-    </dependency> 
+ <dependency>
+ <groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>3.141.59</version>
+</dependency> 
 
     
 
-    <dependency>
-
-  <groupId>org.testng</groupId>
-
-  <artifactId>testng</artifactId>
-
-  <version>6.8</version>
-
-  <scope>compile</scope>
-
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>6.8</version>
+<scope>compile</scope>
 </dependency>
 
     <dependency>
@@ -195,16 +186,10 @@
 		
 
 <dependency>
-
 <groupId>io.appium</groupId>
-
 <artifactId>java-client</artifactId>
-
 <version>6.1.0</version>
-
 </dependency>
-
-
 
 <dependency>
 
@@ -243,16 +228,11 @@
 </dependency>
 
 		
-
-		<dependency>
-
-        <groupId>org.seleniumhq.selenium</groupId>
-
-        <artifactId>selenium-server</artifactId>
-
-        <version>3.141.59</version>
-
-    </dependency>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-server</artifactId>
+<version>3.141.59</version>
+</dependency>
 
     
 
