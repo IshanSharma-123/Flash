@@ -16,7 +16,7 @@ import com.qa.pages.RegistrationPage;
 public class RegistrationPageTest extends BaseClass {
 	HomePage HPG;
 	RegistrationPage RPG;
-	String SheetName="TestData";
+	String SheetName="Sheet1";
 	
   public RegistrationPageTest()
 	{
