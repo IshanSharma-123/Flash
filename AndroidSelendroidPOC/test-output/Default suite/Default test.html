@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 12 18:06:28 IST 2019</td>
+<td>Started on:</td><td>Tue Feb 26 09:51:43 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>101 seconds (101696 ms)</td>
+<tr><td>Total time:</td><td>85 seconds (85374 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,11 +79,11 @@ function toggleAllBoxes() {
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:1890:4de0:2c0b:f898%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
+System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:867:ef69:b76a:ae9d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3faf971a-d0ee-475e-bdf9-f3710b1891d3
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text=&apos;Mr. Burns&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -101,11 +101,11 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -119,8 +119,8 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+	at com.sun.proxy.$Proxy13.clear(Unknown Source)
+	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 	at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -147,15 +147,15 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1057507014", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1057507014'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1660325375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1660325375'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:1890:4de0:2c0b:f898%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
+System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:867:ef69:b76a:ae9d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3faf971a-d0ee-475e-bdf9-f3710b1891d3
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text=&apos;Mr. Burns&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -173,11 +173,11 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -191,8 +191,8 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+	at com.sun.proxy.$Proxy13.clear(Unknown Source)
+	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 	at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -220,18 +220,18 @@ Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>39</td>
+<td>25</td>
 <td>com.qa.testcases.RegistrationPageTest@3327bd23</td></tr>
 <tr>
 <td title='com.qa.testcases.RegistrationPageTest.ResgistrationTest()'><b>ResgistrationTest</b><br>Test class: com.qa.testcases.RegistrationPageTest<br>Parameters: Sharma, ishan@123, ishansharma16@gmail.com, Ishan</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:1890:4de0:2c0b:f898%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
+System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:867:ef69:b76a:ae9d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3a0bc1b0-b9f4-40f0-ac49-dd6e0dcf11ef
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text=&apos;Mr. Burns&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -249,11 +249,11 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -267,8 +267,8 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+	at com.sun.proxy.$Proxy13.clear(Unknown Source)
+	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 	at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -295,15 +295,15 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1483145520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1483145520'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace837246227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace837246227'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:1890:4de0:2c0b:f898%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
+System info: host: &apos;SBMAC0385.local&apos;, ip: &apos;fe80:0:0:0:867:ef69:b76a:ae9d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3a0bc1b0-b9f4-40f0-ac49-dd6e0dcf11ef
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text=&apos;Mr. Burns&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -321,11 +321,11 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -339,8 +339,8 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+	at com.sun.proxy.$Proxy13.clear(Unknown Source)
+	at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 	at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -368,7 +368,7 @@ Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>36</td>
+<td>27</td>
 <td>com.qa.testcases.RegistrationPageTest@3327bd23</td></tr>
 </table><p>
 </body>

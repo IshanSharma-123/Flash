@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="101696" started-at="2019-02-12T12:36:28Z" finished-at="2019-02-12T12:38:10Z">
+  <suite name="Default suite" duration-ms="85374" started-at="2019-02-26T04:21:43Z" finished-at="2019-02-26T04:23:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="101696" started-at="2019-02-12T12:36:28Z" finished-at="2019-02-12T12:38:10Z">
+    <test name="Default test" duration-ms="85374" started-at="2019-02-26T04:21:43Z" finished-at="2019-02-26T04:23:08Z">
       <class name="com.qa.testcases.RegistrationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="setup" is-config="true" duration-ms="13593" started-at="2019-02-12T12:36:29Z" finished-at="2019-02-12T12:36:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="setup" is-config="true" duration-ms="16926" started-at="2019-02-26T04:21:44Z" finished-at="2019-02-26T04:22:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="ResgistrationTest" duration-ms="39432" started-at="2019-02-12T12:36:42Z" data-provider="gePOCtTestData" finished-at="2019-02-12T12:37:22Z">
+        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="ResgistrationTest" duration-ms="25771" started-at="2019-02-26T04:22:01Z" data-provider="gePOCtTestData" finished-at="2019-02-26T04:22:26Z">
           <params>
             <param index="0">
               <value>
@@ -39,21 +39,21 @@
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:1890:4de0:2c0b:f898%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
+System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:867:ef69:b76a:ae9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
-*** Element info: {Using=id, value=btnRegisterUser}]]>
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3faf971a-d0ee-475e-bdf9-f3710b1891d3
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Mr. Burns']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:1890:4de0:2c0b:f898%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
+System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:867:ef69:b76a:ae9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: cf55de97-dcb4-4cdc-8b5f-a3a35869cb69
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3faf971a-d0ee-475e-bdf9-f3710b1891d3
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Mr. Burns']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -71,11 +71,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -89,8 +89,8 @@ at io.appium.java_client.android.$Proxy8.findElement(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+at com.sun.proxy.$Proxy13.clear(Unknown Source)
+at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -123,15 +123,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResgistrationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="teardown" is-config="true" duration-ms="2347" started-at="2019-02-12T12:37:22Z" finished-at="2019-02-12T12:37:24Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="teardown" is-config="true" duration-ms="3441" started-at="2019-02-26T04:22:26Z" finished-at="2019-02-26T04:22:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="setup" is-config="true" duration-ms="7339" started-at="2019-02-12T12:37:24Z" finished-at="2019-02-12T12:37:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="setup" is-config="true" duration-ms="7953" started-at="2019-02-26T04:22:30Z" finished-at="2019-02-26T04:22:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="ResgistrationTest" duration-ms="36154" started-at="2019-02-12T12:37:31Z" data-provider="gePOCtTestData" finished-at="2019-02-12T12:38:07Z">
+        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="ResgistrationTest" duration-ms="27173" started-at="2019-02-26T04:22:38Z" data-provider="gePOCtTestData" finished-at="2019-02-26T04:23:05Z">
           <params>
             <param index="0">
               <value>
@@ -159,21 +159,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:1890:4de0:2c0b:f898%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
+System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:867:ef69:b76a:ae9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
-*** Element info: {Using=id, value=btnRegisterUser}]]>
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3a0bc1b0-b9f4-40f0-ac49-dd6e0dcf11ef
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Mr. Burns']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:1890:4de0:2c0b:f898%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
+System info: host: 'SBMAC0385.local', ip: 'fe80:0:0:0:867:ef69:b76a:ae9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 92d8bc5b-bff6-4987-8706-420515543a54
-*** Element info: {Using=id, value=btnRegisterUser}
+Capabilities {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: /Users/ishans/APK/selendroi..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: motorola, deviceModel: Moto G (4), deviceName: ZY223HP569, deviceScreenSize: 1080x1920, deviceUDID: ZY223HP569, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3a0bc1b0-b9f4-40f0-ac49-dd6e0dcf11ef
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Mr. Burns']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -191,11 +191,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -209,8 +209,8 @@ at io.appium.java_client.android.$Proxy8.findElement(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
+at com.sun.proxy.$Proxy13.clear(Unknown Source)
+at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:54)
 at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -243,7 +243,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResgistrationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="teardown" is-config="true" duration-ms="2311" started-at="2019-02-12T12:38:07Z" finished-at="2019-02-12T12:38:10Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@3327bd23]" name="teardown" is-config="true" duration-ms="3264" started-at="2019-02-26T04:23:05Z" finished-at="2019-02-26T04:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
