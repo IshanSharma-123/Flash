@@ -30,7 +30,7 @@ import com.qa.Util.WebEventListener;
 
 
 public class BaseClass {
-	
+	// learning git upload
 	//public static AndroidDriver<MobileElement> driver;
 	public static WebDriver driver;
 	public static Properties prop;
